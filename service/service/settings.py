@@ -146,3 +146,7 @@ LOGGING = {
         }
     }
 }
+
+#6379 - дефолтный порт redis'a
+#0 - нулевая бд redis'a
+CELERY_BROKER_URL = 'redis://redis:6379/0'
